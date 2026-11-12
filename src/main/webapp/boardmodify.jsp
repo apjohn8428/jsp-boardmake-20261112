@@ -72,6 +72,7 @@
 	<h2>내용 수정하기</h2>
 	<hr>
 	<form action="boardmodifyOk.jsp">
+		<input type="hidden" name="bnum" value="${boardDto.bnum}">
 		글번호: ${boardDto.bnum} <br><br>
 		작성자: ${boardDto.bwriter} <br><br>
 		제목: <input type="text" name="btitle" size="50" value="${boardDto.btitle}"> <br><br>
