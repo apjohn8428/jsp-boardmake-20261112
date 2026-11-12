@@ -61,7 +61,8 @@
 		}
 		
 		}	
-	
+		
+		response.sendRedirect("boardlist.jsp"); //게시판 목록으로 강제 이동
 	%>
 </body>
 </html>

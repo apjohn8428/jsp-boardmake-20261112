@@ -87,8 +87,8 @@
 	<p>작성자: ${boardDto.bwriter}</p>
 	<p>작성일: ${boardDto.bdate}</p>
 	<hr>
-	<a href="boardlist.jsp">목록</a>
-	<a href="boardmodify.jsp?bnum=${boardDto.bnum}">수정</a>
-	<a href="#">삭제</a>
+	<input type="button" value="목록" onclick="location.href='boardlist.jsp'">
+	<input type="button" value="수정" onclick="location.href='boardmodify.jsp'">
+	<input type="button" value="삭제" onclick="#">
 </body>
 </html>
