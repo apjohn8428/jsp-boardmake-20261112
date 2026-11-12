@@ -88,7 +88,7 @@
 	<p>작성일: ${boardDto.bdate}</p>
 	<hr>
 	<input type="button" value="목록" onclick="location.href='boardlist.jsp'">
-	<input type="button" value="수정" onclick="location.href='boardmodify.jsp'">
-	<input type="button" value="삭제" onclick="#">
+	<input type="button" value="수정" onclick="location.href='boardmodify.jsp?bnum=${boardDto.bnum}'">
+	<input type="button" value="삭제" onclick="location.href='boarddelete.jsp?bnum=${boardDto.bnum}'">
 </body>
 </html>

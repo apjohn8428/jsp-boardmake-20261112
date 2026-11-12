@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>글 수정 확인 페이지</title>
 </head>
 <body>
 	<%
@@ -95,6 +95,6 @@
 	<hr>
 	<a href="boardlist.jsp">목록</a>
 	<a href="boardmodify.jsp?bnum=${boardDto.bnum}">수정</a>
-	<a href="#">삭제</a>
+	<a href="boarddelete,jsp?bnum=${boardDto.bnum}">삭제</a>
 </body>
 </html>
